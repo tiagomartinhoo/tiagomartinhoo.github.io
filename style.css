@@ -3,3 +3,29 @@ body {
     background: #d4edf3;
     text-align: center;
 }
+
+#logo {
+    width: 210px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 20px
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden
+}
+  
+nav ul {
+    background-color: rgb(0, 136, 136)
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
