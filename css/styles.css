@@ -10949,6 +10949,21 @@ p.lead {
   max-height: 40px;
 }
 
+.uni {
+  width: 140px;
+  height: 80px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.uni-icon {
+  max-width: auto;
+  max-height: 70px;
+  padding-top: 5px;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
