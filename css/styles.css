@@ -10949,6 +10949,10 @@ p.lead {
   max-height: 40px;
 }
 
+.dev-icon:hover {
+  transform: scale(1.3);
+}
+
 .uni {
   width: 140px;
   height: 80px;
@@ -10956,6 +10960,10 @@ p.lead {
   border-radius: 50%;
   text-align: center;
   margin-right: 30px;
+}
+
+.uni:hover {
+  transform: scale(1.1);
 }
 
 .uni-icon {
