@@ -10951,6 +10951,7 @@ p.lead {
 
 .dev-icon:hover {
   transform: scale(1.3);
+  transition: all 0.3s ease-in-out;
 }
 
 .uni {
@@ -10964,6 +10965,7 @@ p.lead {
 
 .uni:hover {
   transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .uni-icon {
