@@ -10957,6 +10957,7 @@ p.lead {
 .uni {
   width: 140px;
   height: 80px;
+  padding: 0 16px;
   border: 1px solid gray;
   border-radius: 50%;
   text-align: center;
