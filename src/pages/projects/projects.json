@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Intelligent Personalized Care",
+      "createdAt": "Feb 2023",
+      "url": "https://github.com/intelligent-personalized-care/ipc",
+      "description": "The Intelligent Personalized Care project aims to respond to the rapidly increasing sedentary lifestyle and isolation of the population. Using advanced artificial intelligence technologies to provide personalized and effective remote care for patients in different health scenarios, it will be possible to reduce and prevent sedentary lifestyle, and promote physical exercise and rehabilitation in people.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kotlin",
+          "imageSrc": "kotlin.png"
+        },
+        {
+          "name": "Spring",
+          "imageSrc": "spring.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "imageSrc": "postgresql.png"
+        },
+        {
+          "name": "Google Cloud Platform",
+          "imageSrc": "gcp.png"
+        },
+        {
+          "name": "Jetpack Compose",
+          "imageSrc": "jetpack_compose.png"
+        },
+        {
+          "name": "ML Kit",
+          "imageSrc": "mlkit.png"
+        },
+        {
+          "name": "Android",
+          "imageSrc": "android.png"
+        }
+      ]
+    }
+  ]
+}
