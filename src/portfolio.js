@@ -11,7 +11,7 @@ const seo = {
   description:
     "I am a Computer Science and Engineering finalist student, passionate about software development, challenges and Rugby.",
   og: {
-    title: "Tiago Martinho Website",
+    title: "Tiago Martinho's Website",
     type: "website",
     url: "https://tmartinho.pt",
   },
