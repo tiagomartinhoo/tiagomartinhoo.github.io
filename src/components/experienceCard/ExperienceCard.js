@@ -15,11 +15,17 @@ class ExperienceCard extends Component {
       >
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
-            <img
-              className="experience-card-logo"
-              src={require(`../../assets/images/experience/${experience["logo_path"]}`)}
-              alt=""
-            />
+            <a
+              href={experience["company_url"]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="experience-card-logo"
+                src={require(`../../assets/images/experience/${experience["logo_path"]}`)}
+                alt=""
+              />
+            </a>
           </div>
         </Fade>
         <div className="experience-card-stepper">
@@ -82,19 +88,21 @@ class ExperienceCard extends Component {
                   </p>
                 </div>
                 <div>
-                  <div className="experience-card-heading-right">
+                  <div className="">
                     <p
                       className="experience-card-duration"
                       style={{ color: theme.secondaryText }}
                     >
                       {experience["duration"]}
                     </p>
+                    {/*
                     <p
                       className="experience-card-location"
                       style={{ color: theme.secondaryText }}
                     >
                       {experience["location"]}
                     </p>
+                    */}
                   </div>
                 </div>
               </div>

@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Tiago Martinho Website",
     type: "website",
-    url: "https://www.tmartinho.pt",
+    url: "https://tmartinho.pt",
   },
 };
 
@@ -184,10 +184,10 @@ const experience = {
         {
           title: "Projects Department Member",
           company: "In-Nova - Consultoria Júnior da FCT NOVA",
-          company_url: "#",
+          company_url: "https://innova.pt/",
           logo_path: "innova.png",
           duration: "Oct 2023 - Present",
-          location: "Portugal",
+          location: "Lisbon, Portugal",
           description:
             "Collaborated on full-stack projects using advanced technologies. Demonstrated strong problem-solving skills and dedication to project timelines through active participation in challenging initiatives.",
           color: "#28B463",
@@ -195,7 +195,7 @@ const experience = {
         {
           title: "IT Manager",
           company: "Academia Ubuntu Rugby",
-          company_url: "#",
+          company_url: "https://ubunturugby.pt/",
           logo_path: "ubuntu.png",
           duration: "Sep 2023 - Present",
           location: "Sintra, Portugal",
@@ -206,7 +206,7 @@ const experience = {
         {
           title: "Cloud Intern",
           company: "NTT DATA Europe & Latam",
-          company_url: "https://www.nttdata.com/",
+          company_url: "https://pt.nttdata.com/",
           logo_path: "nttdata.png",
           duration: "Jul 2024 - Aug 2024",
           location: "Lisbon, Portugal",
@@ -217,12 +217,12 @@ const experience = {
         {
           title: "Technology Seller",
           company: "Xiaomi Store Portugal",
-          company_url: "#",
+          company_url: "https://www.xiaomistore.pt/",
           logo_path: "xiaomi.png",
           duration: "Dec 2021 - Jun 2023",
           location: "Sintra, Portugal",
           description:
-            "Developed communication and organizational skills by achieving sales targets and assisting customers with technology-related inquiries.",
+            "I was part of a technology work team where I perform several tasks. I developed my communication skills, organization skills and ability to follow instructions and achieve the goals set by my superiors.",
           color: "#F47B20",
         }
       ],

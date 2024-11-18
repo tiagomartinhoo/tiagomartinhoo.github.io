@@ -326,6 +326,7 @@ transition: all 0.3s ease-in-out 0s;
   .experience-card-duration {
       /* margin-top: 2px; */
       /* text-align: center; */
+      font-size: 14px;
   }
 
   .experience-card-location{
