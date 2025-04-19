@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./Header.css";
-import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
-import { TiHome } from "react-icons/ti";
 import { FaHome, FaGraduationCap, FaBriefcase, FaProjectDiagram, FaUser } from "react-icons/fa";
 
 const onMouseEnter = (event, color) => {
@@ -31,7 +29,7 @@ class Header extends Component {
     return (
       <>
         <SeoHeader />
-        <div style={{ "margin-bottom": "40px" }}>
+        <div style={{ marginBottom: "40px" }}>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>

@@ -75,7 +75,7 @@ class ExperienceCard extends Component {
 
                   {roles.map((role, index) => {
                     return (
-                      <div>
+                      <div key={index}>
                         <div
                           style={{
                             display: "flex",

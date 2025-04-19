@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
-import { FiExternalLink } from "react-icons/fi";
 
 class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
     return (
-      <div className="degree-card">
+      <div key={degree.title} className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
             <a
@@ -33,6 +32,7 @@ class DegreeCard extends Component {
         )}
         <Fade right duration={2000} distance="40px">
           <div
+            key={degree.title}
             className="card-body"
             style={{ width: degree.logo_path ? "90%" : "100%" }}
           >
@@ -45,7 +45,7 @@ class DegreeCard extends Component {
                   {degree.title}
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  <i class="fa-solid fa-location-dot" style={{ "margin-right": "6px" }} />
+                  <i className="fa-solid fa-location-dot" style={{ marginRight: "6px" }} />
                   {degree.subtitle}
                 </h3>
               </div>
@@ -58,7 +58,7 @@ class DegreeCard extends Component {
             <div className="body-content">
               {degree.descriptions.map((sentence) => {
                 return (
-                  <p className="content-list" style={{ color: theme.text }}>
+                  <p key={sentence} className="content-list" style={{ color: theme.text }}>
                     {sentence}
                   </p>
                 );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
 import "./ExperienceAccordion.css";
-import { Accordion, Panel } from "baseui/accordion";
+import { Accordion } from "baseui/accordion";
 import { Fade } from "react-reveal";
 
 
@@ -23,7 +23,7 @@ class ExperienceAccordion extends Component {
                 </div>
                 {section["experiences"].map((experience, index) => {
                   return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
+                    <ExperienceCard key={index} index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
                   );
                 })}
               </>
