@@ -1,12 +1,78 @@
 {
   "data": [
     {
+      "id": "3",
+      "name": "Fraqtory",
+      "date": "Feb 2025 - Present",
+      "url": "https://fraqtory.com/",
+      "imageSrc": "fraqtory.svg",
+      "description": "Contributing as a Software Engineer to Fraqtory, where we are redefining manufacturing through computer vision. Working on quality software solutions that leverage innovative image-processing techniques to improve production workflows and deliver tangible results. Fraqtory is committed to transforming the industry by interpreting the world through cutting-edge technology.",
+      "languages": [
+        {
+          "name": "Dart",
+          "imageSrc": "dart.png"
+        },
+        {
+          "name": "Docker",
+          "imageSrc": "docker.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "imageSrc": "postgreSQL.png"
+        },
+        {
+          "name": "NextJS",
+          "imageSrc": "nextjs.png"
+        },
+        {
+          "name": "Supabase",
+          "imageSrc": "supabase.png"
+        },
+        {
+          "name": "Appwrite",
+          "imageSrc": "appwrite.png"
+        }
+      ],
+      "background": "#081efb15"
+    },
+    {
+      "id": "2",
+      "name": "Myelin8",
+      "date": "Jul 2024 - Nov 2024",
+      "url": "https://myelin8.com/",
+      "imageSrc": "myelin8.jpg",
+      "description": "Contributed to the development of Myelin8, a technology initiative focused on transforming the tourism industry through deep personalization and data-driven decision-making. Designed and built the project’s website, ensuring a user-friendly and engaging experience. Additionally, worked on AI solution concepts, sketching potential applications to help businesses, brands, and destinations anticipate traveler needs and deliver more relevant offers.",
+      "languages": [
+        {
+          "name": "React",
+          "imageSrc": "react.png"
+        },
+        {
+          "name": "JavaScript",
+          "imageSrc": "javascript.png"
+        },
+        {
+          "name": "HTML",
+          "imageSrc": "html.png"
+        },
+        {
+          "name": "CSS",
+          "imageSrc": "css.png"
+        },
+        {
+          "name": "Google Cloud Platform",
+          "imageSrc": "gcp.png"
+        }
+      ],
+      "background": "#6808b015"
+    },
+    {
       "id": "1",
       "name": "Intelligent Personalized Care",
-      "createdAt": "Feb 2023",
+      "date": "Feb 2023 - Jul 2023",
       "url": "https://github.com/intelligent-personalized-care/ipc",
+      "imageSrc": "ipc.png",
       "description": "The Intelligent Personalized Care project aims to respond to the rapidly increasing sedentary lifestyle and isolation of the population. Using advanced artificial intelligence technologies to provide personalized and effective remote care for patients in different health scenarios, it will be possible to reduce and prevent sedentary lifestyle, and promote physical exercise and rehabilitation in people.",
-      "isFork": false,
       "languages": [
         {
           "name": "Kotlin",
@@ -18,7 +84,7 @@
         },
         {
           "name": "PostgreSQL",
-          "imageSrc": "postgresql.png"
+          "imageSrc": "postgreSQL.png"
         },
         {
           "name": "Google Cloud Platform",
@@ -36,7 +102,8 @@
           "name": "Android",
           "imageSrc": "android.png"
         }
-      ]
+      ],
+      "background": "#1b457115"
     }
   ]
 }

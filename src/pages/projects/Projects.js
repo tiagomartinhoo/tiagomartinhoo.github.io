@@ -11,6 +11,7 @@ import {
 import ProjectsData from "./projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import Footer from "../../components/footer/Footer.js";
 
 class Projects extends Component {
   render() {
@@ -51,13 +52,13 @@ class Projects extends Component {
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"+ More Projects"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}
           theme={theme}
         />
-
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

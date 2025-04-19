@@ -9,6 +9,7 @@
 
 .experience-heading-div {
   display: flex;
+  margin-bottom: 120px;
 }
 
 .experience-heading-div > * {

@@ -11,6 +11,7 @@
 
 .projects-heading-div {
   display: flex;
+  margin-bottom: 180px;
 }
 
 .projects-heading-div > * {
@@ -86,6 +87,7 @@
 
   .projects-heading-div {
     flex-direction: column;
+    margin-bottom: 0px;
   }
 
   .projects-header-detail-text {

@@ -4,6 +4,7 @@ import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Error.css";
 import { Link } from "react-router-dom";
+import Footer from "../../../components/footer/Footer";
 
 export default class Error extends Component {
   render() {
@@ -30,6 +31,7 @@ export default class Error extends Component {
             </Link>
           </Fade>
         </div>
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

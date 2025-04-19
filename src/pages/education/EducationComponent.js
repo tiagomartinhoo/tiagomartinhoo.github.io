@@ -5,6 +5,7 @@ import Educations from "../../containers/education/Educations";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import Footer from "../../components/footer/Footer";
 
 class Education extends Component {
   render() {
@@ -33,6 +34,7 @@ class Education extends Component {
           </Fade>
           <Educations theme={this.props.theme} />
         </div>
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

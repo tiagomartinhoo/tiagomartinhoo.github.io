@@ -4,6 +4,8 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import { TiHome } from "react-icons/ti";
+import { FaHome, FaGraduationCap, FaBriefcase, FaProjectDiagram, FaUser } from "react-icons/fa";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -21,9 +23,9 @@ class Header extends Component {
     const link = settings.isSplash ? "/splash" : "/";
     const activeStyle = {
       backgroundColor: theme.highlight,
-      fontWeight: "bold", 
-      border: "1px solid", 
-      borderColor: theme.text + "66", 
+      fontWeight: "bold",
+      border: "1px solid",
+      borderColor: theme.text + "66",
       borderRadius: "10px"
     };
     return (
@@ -53,7 +55,13 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Home
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <FaHome
+                      size={20}
+                      style={{ marginRight: "8px", marginBottom: "2px", color: theme.text }}
+                    />
+                    Home
+                  </div>
                 </NavLink>
               </li>
               <li>
@@ -65,7 +73,13 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Education
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <FaGraduationCap
+                      size={20}
+                      style={{ marginRight: "8px", marginBottom: "2px", color: theme.text }}
+                    />
+                    Education
+                  </div>
                 </NavLink>
               </li>
               <li>
@@ -77,7 +91,13 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Experience
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <FaBriefcase
+                      size={20}
+                      style={{ marginRight: "8px", marginBottom: "2px", color: theme.text }}
+                    />
+                    Experience
+                  </div>
                 </NavLink>
               </li>
               <li>
@@ -89,7 +109,13 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Projects
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <FaProjectDiagram
+                      size={20}
+                      style={{ marginRight: "8px", marginBottom: "2px", color: theme.text }}
+                    />
+                    Projects
+                  </div>
                 </NavLink>
               </li>
               <li>
@@ -101,7 +127,13 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  About Me
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <FaUser
+                      size={20}
+                      style={{ marginRight: "8px", marginBottom: "2px", color: theme.text }}
+                    />
+                    About Me
+                  </div>
                 </NavLink>
               </li>
             </ul>

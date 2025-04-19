@@ -8,6 +8,7 @@ import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
+import Footer from "../../components/footer/Footer.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -45,7 +46,7 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="🔗 See my Resume"
+                    text="🔗 My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
@@ -124,6 +125,7 @@ class Contact extends Component {
           </Fade>
           */}
         </div>
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

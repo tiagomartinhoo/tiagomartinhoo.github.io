@@ -24,8 +24,8 @@ class ProjectLanguages extends Component {
                     name={logo.skillName}
                   >
                     <img
-                      className="skill-image"
-                      src={`${process.env.PUBLIC_URL}/skills/${logo.imageSrc}`}
+                      className="skill-image-36"
+                      src={`/skills/${logo.imageSrc}`}
                       alt={logo.skillName}
                     />
                   </li>

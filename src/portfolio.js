@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Tiago Martinho",
   nickname: "Computer Science & Engineering Student",
   subTitle:
-    "I am a Computer Science and Engineering finalist student, passionate about software development, challenges and Rugby.",
+    "I am a master's finalist student in Computer Science and Engineering, passionate about software development, challenges and Rugby.",
   resumeLink:
     "https://www.canva.com/design/DAFcAqGTokg/8vxnWbl915jQVOYrjgrkIA/edit?utm_content=DAFcAqGTokg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   githubProfile: "https://github.com/tiagomartinhoo",
@@ -62,8 +62,8 @@ const skills = {
       title: "Programming Languages",
       fileName: "coding.svg",
       skills: [
-        "⚡ Proficient in Java, Kotlin, JavaScript, TypeScript, and Python",
-        "⚡ Skilled in web development using HTML and CSS",
+        "🚀 Proficient in Java, Kotlin, JavaScript, TypeScript, and Python",
+        "🚀 Skilled in web development using HTML and CSS",
       ],
       softwareSkills: [
         { skillName: "Java", imageSrc: "java.png" },
@@ -81,8 +81,8 @@ const skills = {
       title: "Cloud & Databases",
       fileName: "cloud.svg",
       skills: [
-        "⚡ Experienced with cloud platforms like Google Cloud Platform and Azure",
-        "⚡ Skilled in managing databases such as PostgreSQL, MongoDB, and Elasticsearch",
+        "🚀 Experienced with cloud platforms like Google Cloud Platform and Azure",
+        "🚀 Skilled in managing databases such as PostgreSQL, MongoDB, and Elasticsearch",
       ],
       softwareSkills: [
         { skillName: "Google Cloud Platform", imageSrc: "gcp.png" },
@@ -99,8 +99,8 @@ const skills = {
       title: "Backend Development",
       fileName: "backend.svg",
       skills: [
-        "⚡ Expertise in backend development using Spring and Node.js",
-        "⚡ Configuring and managing servers with Nginx",
+        "🚀 Expertise in backend development using Spring and Node.js",
+        "🚀 Configuring and managing servers with Nginx",
       ],
       softwareSkills: [
         { skillName: "Spring", imageSrc: "spring.png" },
@@ -112,8 +112,8 @@ const skills = {
       title: "Frontend Development",
       fileName: "frontend.svg",
       skills: [
-        "⚡ Developing responsive UI/UX with Jetpack Compose and React",
-        "⚡ Styling applications using Bootstrap and Tailwind CSS",
+        "🚀 Developing responsive UI/UX with Jetpack Compose and React",
+        "🚀 Styling applications using Bootstrap and Tailwind CSS",
       ],
       softwareSkills: [
         { skillName: "Jetpack Compose", imageSrc: "jetpack_compose.png" },
@@ -126,8 +126,8 @@ const skills = {
       title: "OS & Tools",
       fileName: "tools.svg",
       skills: [
-        "⚡ Proficient with tools like Docker, Postman, and Git",
-        "⚡ Experienced in monitoring systems with Grafana",
+        "🚀 Proficient with tools like Docker, Postman, and Git",
+        "🚀 Experienced in monitoring systems with Grafana",
       ],
       softwareSkills: [
         { skillName: "Android", imageSrc: "android.png" },
@@ -178,7 +178,7 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Professional Experiences",
       work: true,
       experiences: [
         {
@@ -191,6 +191,20 @@ const experience = {
           description:
             "Collaborated on full-stack projects using advanced technologies. Demonstrated strong problem-solving skills and dedication to project timelines through active participation in challenging initiatives.",
           color: "#28B463",
+          roles: [
+            {
+              title: "Project Manager",
+              duration: "Jul 2024 - Present",
+              description:
+              "Managed projects applying agile project management for efficient delivery, led critical app development for the Innovation Week event, and managed full-stack projects.",
+            },
+            {
+              title: "Projects Department Member",
+              duration: "Oct 2023 - Jul 2024",
+              description:
+              "Collaborated on full-stack projects using advanced technologies. Demonstrated strong problem-solving skills and dedication to project timelines through active participation in challenging initiatives.",  
+            }
+          ]
         },
         {
           title: "IT Manager",
@@ -200,7 +214,7 @@ const experience = {
           duration: "Sep 2023 - Present",
           location: "Sintra, Portugal",
           description:
-            "Responsible for providing IT support and maintaining the team’s website. Successfully developed and launched the team’s website from scratch, ensuring reliability and user-friendliness.",
+            "Responsible for providing IT support and maintaining the team’s website. Successfully developed and launched the team’s website from scratch, enhancing online presence and user engagement.",
           color: "#FF5733",
         },
         {
@@ -215,7 +229,7 @@ const experience = {
           color: "#0078D7",
         },
         {
-          title: "Technology Seller",
+          title: "Technology Sales Associate",
           company: "Xiaomi Store Portugal",
           company_url: "https://www.xiaomistore.pt/",
           logo_path: "xiaomi.png",
@@ -227,6 +241,31 @@ const experience = {
         }
       ],
     },
+    {
+      title: "Other Experiences",
+      experiences: [
+        {
+          title: "Campus Ambassador",
+          company: "BNP Paribas",
+          company_url: "https://www.bnpparibas.pt/",
+          logo_path: "BNP_Paribas.png",
+          duration: "Jan 2025 - Present",
+          location: "Lisbon, Portugal",
+          description: "Actively promoted BNP Paribas' initiatives and values on campus, engaging with students and fostering a positive image of the company. Developed strong communication and networking skills.",
+          color: "#FF5733",
+        },
+        {
+          title: "JEE Winter Conference 2025 Staff Marketing",
+          company: "JE Europe",
+          company_url: "https://juniorenterprises.eu/",
+          logo_path: "jeeurope.png",
+          duration: "Nov 2024 - Apr 2025",
+          location: "Brussels, Belgium",
+          description: "Worked as part of the Marketing Team for the largest JEE Winter Conference ever, ensuring smooth communication and engagement across digital channels. Managed real-time social media updates, crafted engaging content, and contributed to the event’s visibility.",
+          color: "#FF5733",
+        },
+      ],
+    }
   ],
 };
 

@@ -123,7 +123,7 @@
   position: relative;
   align-items: center; 
   flex-direction: column; 
-  margin-top: -40px
+  margin-top: -40px;
 }
 
 .experience-card-body-div {
@@ -284,7 +284,6 @@ transition: all 0.3s ease-in-out 0s;
   .experience-card{
       /* margin-bottom:10px; */
       flex-direction:column;
-      text-align: center;
   }
 
   .arrow-left {

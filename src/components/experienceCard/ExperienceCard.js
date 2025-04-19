@@ -8,6 +8,9 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+
+    const roles = this.props.experience.roles;
+
     return (
       <div
         className="experience-list-item"
@@ -36,16 +39,17 @@ class ExperienceCard extends Component {
               backgroundColor: `${theme.headerColor}`,
               borderRadius: 50,
               zIndex: 100,
+              marginTop: roles !== undefined ? -92 : -20,
             }}
           />
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: 190,
+                height: roles !== undefined ? 334 : 184,
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
-                marginTop: 20,
+                marginTop: roles !== undefined ? -72 : 0,
               }}
             />
           )}
@@ -60,42 +64,109 @@ class ExperienceCard extends Component {
               className="experience-card"
               style={{ background: `${theme.body}` }}
             >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "space-between",
-                }}
-              >
-                <div>
-                  <h3
-                    className="experience-card-title"
-                    style={{ color: theme.text }}
-                  >
-                    {experience["title"]}
-                  </h3>
-                  <p
-                    className="experience-card-company"
-                    style={{ color: theme.text }}
-                  >
-                    <a
-                      href={experience["company_url"]}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {experience["company"]}
-                    </a>
-                  </p>
+              {roles !== undefined ? (
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                  }}
+                >
+
+                  {roles.map((role, index) => {
+                    return (
+                      <div>
+                        <div
+                          style={{
+                            display: "flex",
+                            flexDirection: "row",
+                            justifyContent: "space-between",
+                            marginTop: index !== 0 && "40px",
+                          }}
+                        >
+                          <div>
+                            <h3
+                              className="experience-card-title"
+                              style={{ color: theme.text }}
+                            >
+                              {role["title"]}
+                            </h3>
+                            <p
+                              className="experience-card-company"
+                              style={{ color: theme.text }}
+                            >
+                              <a
+                                href={experience["company_url"]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {experience["company"]}
+                              </a>
+                            </p>
+                          </div>
+                          <div>
+                            <div className="">
+                              <p
+                                className="experience-card-duration"
+                                style={{ color: theme.secondaryText }}
+                              >
+                                {role["duration"]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={{
+                            display: "flex",
+                            justifyContent: "flex-start",
+                            marginTop: 10,
+                          }}
+                        >
+                          <div className="repo-description" />
+                          {role["description"]}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
+              ) : (
                 <div>
-                  <div className="">
-                    <p
-                      className="experience-card-duration"
-                      style={{ color: theme.secondaryText }}
-                    >
-                      {experience["duration"]}
-                    </p>
-                    {/*
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <div>
+                      <h3
+                        className="experience-card-title"
+                        style={{ color: theme.text }}
+                      >
+                        {experience["title"]}
+                      </h3>
+                      <p
+                        className="experience-card-company"
+                        style={{ color: theme.text }}
+                      >
+                        <a
+                          href={experience["company_url"]}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {experience["company"]}
+                        </a>
+                      </p>
+                    </div>
+                    <div>
+                      <div className="">
+                        <p
+                          className="experience-card-duration"
+                          style={{ color: theme.secondaryText }}
+                        >
+                          {experience["duration"]}
+                        </p>
+                        {/*
                     <p
                       className="experience-card-location"
                       style={{ color: theme.secondaryText }}
@@ -103,19 +174,22 @@ class ExperienceCard extends Component {
                       {experience["location"]}
                     </p>
                     */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "flex-start",
+                      marginTop: 10,
+                    }}
+                  >
+                    <div className="repo-description" />
+                    {experience["description"]}
                   </div>
                 </div>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  marginTop: 20,
-                }}
-              >
-                <div className="repo-description" />
-                {experience["description"]}
-              </div>
+              )}
+
             </div>
           </div>
         </Fade>

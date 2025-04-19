@@ -6,6 +6,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import Footer from "../../components/footer/Footer.js";
 
 class Experience extends Component {
   render() {
@@ -37,6 +38,7 @@ class Experience extends Component {
           </Fade>
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

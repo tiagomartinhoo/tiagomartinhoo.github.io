@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
+import { FiExternalLink } from "react-icons/fi";
 
 class DegreeCard extends Component {
   render() {
@@ -10,17 +11,24 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
-            <div className="card-img">
-              <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(0.9)",
-                }}
-                src={require(`../../assets/images/${degree.logo_path}`)}
-                alt={degree.alt_name}
-              />
-            </div>
+            <a
+              href={degree.website_link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="card-img">
+
+                <img
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    transform: "scale(0.9)",
+                  }}
+                  src={require(`../../assets/images/${degree.logo_path}`)}
+                  alt={degree.alt_name}
+                />
+              </div>
+            </a>
           </Flip>
         )}
         <Fade right duration={2000} distance="40px">
@@ -37,7 +45,7 @@ class DegreeCard extends Component {
                   {degree.title}
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  <i class="fa-solid fa-location-dot" style={{ "margin-right": "6px"}}/>
+                  <i class="fa-solid fa-location-dot" style={{ "margin-right": "6px" }} />
                   {degree.subtitle}
                 </h3>
               </div>
@@ -55,22 +63,6 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
-              {degree.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
-                  </div>
-                </a>
-              )}
             </div>
           </div>
         </Fade>
