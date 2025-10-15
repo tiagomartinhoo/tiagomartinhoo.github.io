@@ -17,7 +17,7 @@ class ExperienceCard extends Component {
         style={{ marginTop: index === 0 ? 30 : 50 }}
       >
         <Fade left duration={2000} distance="40px">
-          <div className="experience-card-logo-div">
+          <div className={`experience-card-logo-div`}>
             <a
               href={experience["company_url"]}
               target="_blank"
@@ -39,17 +39,17 @@ class ExperienceCard extends Component {
               backgroundColor: `${theme.headerColor}`,
               borderRadius: 50,
               zIndex: 100,
-              marginTop: roles !== undefined ? -92 : -20,
+              marginTop: roles !== undefined ? -170 : 0,
             }}
           />
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: roles !== undefined ? 334 : 184,
+                height: roles !== undefined ? 498 : 184,
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
-                marginTop: roles !== undefined ? -72 : 0,
+                marginTop: roles !== undefined ? -150 : 20,
               }}
             />
           )}

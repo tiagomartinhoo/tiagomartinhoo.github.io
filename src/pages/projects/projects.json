@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "id": "3",
+      "id": "4",
       "name": "Fraqtory",
-      "date": "Feb 2025 - Present",
+      "date": "Feb 2025 - Jun 2025",
       "url": "https://fraqtory.com/",
       "imageSrc": "fraqtory.svg",
       "description": "Contributing as a Software Engineer to Fraqtory, where we are redefining manufacturing through computer vision. Working on quality software solutions that leverage innovative image-processing techniques to improve production workflows and deliver tangible results. Fraqtory is committed to transforming the industry by interpreting the world through cutting-edge technology.",
@@ -36,7 +36,7 @@
       "background": "#081efb15"
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "Myelin8",
       "date": "Jul 2024 - Nov 2024",
       "url": "https://myelin8.com/",
@@ -65,6 +65,29 @@
         }
       ],
       "background": "#6808b015"
+    },
+    {
+      "id": "2",
+      "name": "Ubuntu Rugby",
+      "date": "Sep 2023 - Present",
+      "url": "https://ubunturugby.pt/",
+      "imageSrc": "ubuntu.png",
+      "description": "Responsible for providing IT support and maintaining the team’s website. Successfully developed and launched the team’s website from scratch, enhancing online presence and user engagement.",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "imageSrc": "javascript.png"
+        },
+        {
+          "name": "HTML",
+          "imageSrc": "html.png"
+        },
+        {
+          "name": "CSS",
+          "imageSrc": "css.png"
+        }
+      ],
+      "background": "#FF573315"
     },
     {
       "id": "1",

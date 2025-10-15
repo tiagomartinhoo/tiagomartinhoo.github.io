@@ -148,8 +148,8 @@ const degrees = {
       title: "Master of Science - Computer Science and Engineering",
       subtitle: "NOVA School of Science and Technology",
       logo_path: "nova_sst.png",
-      alt_name: "NOVA SST",
-      duration: "2023 - 2025",
+      alt_name: "NOVA FCT",
+      duration: "2023 - 2026",
       descriptions: [
         "Deepened my knowledge, exploring specialized areas of computing and frontend development. My research interests encompass Artificial Intelligence, Frontend Development and Cloud Technologies.",
       ],
@@ -193,8 +193,14 @@ const experience = {
           color: "#28B463",
           roles: [
             {
+              title: "President",
+              duration: "Jul 2025 - Present",
+              description:
+              "Leading a team of 80 members across five departments. Manage day-to-day operations, coordinate organizational activities, and ensure smooth operation of the association. Support members’ development and represent In-Nova in national and international junior enterprise networks.",
+            },
+            {
               title: "Project Manager",
-              duration: "Jul 2024 - Present",
+              duration: "Jul 2024 - Jun 2025",
               description:
               "Managed projects applying agile project management for efficient delivery, led critical app development for the Innovation Week event, and managed full-stack projects.",
             },
@@ -207,14 +213,14 @@ const experience = {
           ]
         },
         {
-          title: "IT Manager",
-          company: "Academia Ubuntu Rugby",
-          company_url: "https://ubunturugby.pt/",
-          logo_path: "ubuntu.png",
-          duration: "Sep 2023 - Present",
-          location: "Sintra, Portugal",
+          title: "Apprentice Backend Developer",
+          company: "Sky Portugal",
+          company_url: "https://www.linkedin.com/company/skyportugal/",
+          logo_path: "sky.png",
+          duration: "Jul 2025 - Aug 2025",
+          location: "Lisbon, Portugal",
           description:
-            "Responsible for providing IT support and maintaining the team’s website. Successfully developed and launched the team’s website from scratch, enhancing online presence and user engagement.",
+            "Worked as a summer intern within a team focused on a central support system for all Sky Portugal platforms, managing and delivering media assets efficiently. Contributed by developing new functionalities and improving processes to streamline support across the organization.",
           color: "#FF5733",
         },
         {
