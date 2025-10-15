@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Tiago Martinho's Website",
     type: "website",
-    url: "https://tmartinho.pt",
+    url: "https://tiagomartinhoo.github.io/",
   },
 };
 
