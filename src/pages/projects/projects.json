@@ -1,6 +1,41 @@
 {
   "data": [
     {
+      "id": "5",
+      "name": "Preciouscontrol",
+      "date": "Sep 2025 - Present",
+      "url": "https://preciouscontrol-services.com/",
+      "imageSrc": "preciouscontrol.png",
+      "description": "Designed and developed the official Preciouscontrol website, set up the company’s domain and professional email accounts, created and managed the company’s LinkedIn presence, and registered the business on Google to establish a complete, professional, and accessible online presence, improving visibility, credibility, and communication with clients and partners.",
+      "languages": [
+        {
+          "name": "Vercel",
+          "imageSrc": "vercel.svg"
+        },
+        {
+          "name": "React",
+          "imageSrc": "react.png"
+        },
+        {
+          "name": "TypeScript",
+          "imageSrc": "typescript.png"
+        },
+        {
+          "name": "JavaScript",
+          "imageSrc": "javascript.png"
+        },
+        {
+          "name": "HTML",
+          "imageSrc": "html.png"
+        },
+        {
+          "name": "CSS",
+          "imageSrc": "css.png"
+        }
+      ],
+      "background": "#1a449d15"
+    },
+    {
       "id": "4",
       "name": "Fraqtory",
       "date": "Feb 2025 - Jun 2025",
