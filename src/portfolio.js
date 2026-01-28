@@ -24,8 +24,7 @@ const greeting = {
   nickname: "Computer Science & Engineering Student",
   subTitle:
     "I am a master's finalist student in Computer Science and Engineering, passionate about software development, challenges and Rugby.",
-  resumeLink:
-    "https://www.canva.com/design/DAFcAqGTokg/8vxnWbl915jQVOYrjgrkIA/edit?utm_content=DAFcAqGTokg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  resumeLink: "CV_TiagoMartinho.pdf",
   githubProfile: "https://github.com/tiagomartinhoo",
 };
 
@@ -255,7 +254,7 @@ const experience = {
           company: "BNP Paribas",
           company_url: "https://www.bnpparibas.pt/",
           logo_path: "BNP_Paribas.png",
-          duration: "Jan 2025 - Present",
+          duration: "Jan 2025 - May 2025",
           location: "Lisbon, Portugal",
           description: "Actively promoted BNP Paribas' initiatives and values on campus, engaging with students and fostering a positive image of the company. Developed strong communication and networking skills.",
           color: "#FF5733",

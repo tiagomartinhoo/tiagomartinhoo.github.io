@@ -60,8 +60,7 @@
 
 .repo-cards-div-main {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;

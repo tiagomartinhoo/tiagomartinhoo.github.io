@@ -43,8 +43,9 @@ class Contact extends Component {
                   <Button
                     text="🔗 My Resume"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href={require('../../assets/CV_TiagoMartinho.pdf')}
                     theme={theme}
+                    fileToDownload="CV_TiagoMartinho.pdf"
                   />
                 </div>
               </div>

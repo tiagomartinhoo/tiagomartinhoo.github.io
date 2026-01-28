@@ -13,7 +13,7 @@ const onMouseOut = (event, color, bgColor) => {
   el.style.backgroundColor = bgColor;
 };
 
-export default function Button({ text, className, href, newTab, theme }) {
+export default function Button({ text, className, href, newTab, theme, fileToDownload }) {
   return (
     <div className={className}>
       <a
@@ -27,6 +27,7 @@ export default function Button({ text, className, href, newTab, theme }) {
         }}
         onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
         onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
+        download={fileToDownload ? fileToDownload : undefined}
       >
         {text}
       </a>
